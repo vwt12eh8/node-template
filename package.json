@@ -1,0 +1,31 @@
+{
+  "name": "@vwt12eh8/node-template",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vwt12eh8/node-template.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10.20"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^10.17.19",
+    "mocha": "^7.1.1",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  }
+}

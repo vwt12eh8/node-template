@@ -1,0 +1,5 @@
+*.d.ts
+*.js
+*.map
+*.tgz
+node_modules
